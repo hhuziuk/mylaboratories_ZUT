@@ -1,4 +1,10 @@
-#ifndef LAB3_TREE_H
-#define LAB3_TREE_H
+using namespace std;
 
-#endif //LAB3_TREE_H
+class Tree{
+public:
+    int height;
+    string color;
+    char symbol;
+
+    void printTree();
+};
